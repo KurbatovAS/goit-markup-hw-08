@@ -1,0 +1,35 @@
+﻿@import './utils/variables';
+@import './base/manual-scc-reset';
+@import './utils/visually-hidden';
+@import './utils/section';
+@import './utils/container';
+@import './components/body';
+// шапка сайта
+@import './components/header';
+@import './components/navigation';
+@import './components/logo';
+@import './components/mobile-munu';
+@import './components/mobile-nav';
+@import './components/mobile-social';
+@import './components/mobile-contacts';
+@import './components/contacts-header';
+// основной контент
+@import './components/hero';
+@import './components/avantages';
+@import './components/activities';
+@import './components/personal';
+@import './components/networks';
+@import './components/clients';
+// подвал сайта
+@import './components/footer';
+@import './components/address';
+@import './components/networks-footer';
+@import './components/subscribe';
+// бекдроп
+@import './components/backdrop';
+@import './components/modal';
+@import './components/form';
+@import './components/checkbox';
+// "Портфолио"
+@import './components/filter';
+@import './components/portfolio';

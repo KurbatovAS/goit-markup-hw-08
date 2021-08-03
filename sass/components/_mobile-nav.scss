@@ -1,0 +1,21 @@
+.mobile-nav {
+  margin-bottom: 30vh;
+}
+
+.mobile-nav__item:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.mobile-nav__link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: $main-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

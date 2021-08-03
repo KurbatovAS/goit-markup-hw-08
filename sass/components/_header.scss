@@ -1,0 +1,9 @@
+.header {
+  background: $primary-white-color;
+  border-bottom: 1px solid $header-bottom-line;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+}

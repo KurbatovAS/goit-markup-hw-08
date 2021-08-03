@@ -1,0 +1,31 @@
+.networks {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.networks__item:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.networks__link {
+  display: flex;
+  padding: 12px;
+  background-color: $primary-white-color;
+  color: $client-main-color;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 250ms $cubic-bezier, color 250ms $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $primary-white-color;
+  }
+}
+
+.networks__icon {
+  fill: currentColor;
+}

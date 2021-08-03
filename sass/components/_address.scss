@@ -1,0 +1,32 @@
+.address {
+}
+
+.address__list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  @media (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.address__item--line-color {
+  color: $primary-white-color;
+}
+
+.address__item:not(:last-of-type) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  color: $footer-links-text-color;
+
+  transition: color 250ms $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

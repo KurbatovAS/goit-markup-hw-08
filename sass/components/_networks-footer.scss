@@ -1,0 +1,48 @@
+﻿.networks-footer {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $logo-footer-color;
+
+  @media (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.networks-footer__list {
+  display: flex;
+  margin-top: 20px;
+
+  @media (max-width: 1199px) {
+    justify-content: center;
+  }
+}
+
+.networks-footer__item:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.networks-footer__link {
+  display: flex;
+  padding: 12px;
+  background-color: $footer-network-bgc;
+  color: $primary-white-color;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 250ms $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.networks-footer__icon {
+  fill: currentColor;
+}
