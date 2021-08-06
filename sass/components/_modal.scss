@@ -3,7 +3,6 @@
   top: 50%;
   left: 50%;
 
-  width: 450px;
   min-height: 581px;
   padding: 40px;
   border-radius: 4px;
@@ -11,6 +10,14 @@
   background-color: $primary-white-color;
   transform: rotateX(0deg) translate(-50%, -50%) scale(1);
   transition: transform 250ms $cubic-bezier;
+
+  @media (max-width: 767px) {
+    overflow-y: scroll;
+  }
+
+  @media (max-width: 1199px) {
+    max-width: 450px;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 528px;
