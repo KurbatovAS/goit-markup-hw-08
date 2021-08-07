@@ -1,7 +1,7 @@
 .avantages {
   display: flex;
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     display: block;
   }
 
@@ -12,7 +12,7 @@
 }
 
 .avantages__items:not(:last-of-type) {
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 30px;
   }
 
@@ -39,15 +39,16 @@
 }
 
 .avantages__heading {
-  @media (max-width: 767px) {
-    text-align: center;
-  }
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .avantages__text {

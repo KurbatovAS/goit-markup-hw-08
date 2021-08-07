@@ -25,11 +25,12 @@
 }
 
 .footer--logo {
+  display: block;
+  padding: 0;
+  margin-bottom: 20px;
   color: $logo-footer-color;
-  @media (max-width: 1199px) {
-    display: block;
+
+  @media screen and (max-width: 1199px) {
     text-align: center;
-    padding: 0;
-    margin-bottom: 20px;
   }
 }

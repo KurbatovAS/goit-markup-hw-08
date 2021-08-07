@@ -3,7 +3,8 @@
   top: 50%;
   left: 50%;
 
-  min-height: 581px;
+  width: 100%;
+
   padding: 40px;
   border-radius: 4px;
 
@@ -11,11 +12,11 @@
   transform: rotateX(0deg) translate(-50%, -50%) scale(1);
   transition: transform 250ms $cubic-bezier;
 
-  @media (max-width: 767px) {
-    overflow-y: scroll;
+  @media screen and (max-width: 767px) {
+    min-height: 609px;
   }
 
-  @media (max-width: 1199px) {
+  @media screen and (max-width: 1199px) {
     max-width: 450px;
   }
 

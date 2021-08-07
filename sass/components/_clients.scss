@@ -28,18 +28,18 @@
   align-items: center;
   justify-content: center;
 
-  @media screen and (min-width: 768px) {
-    padding: 16px 59px;
-  }
-  @media screen and (min-width: 1200px) {
-    padding: 16px 31px;
-  }
-
   transition: background-color 250ms $cubic-bezier, color 250ms $cubic-bezier;
 
   &:hover,
   &:focus {
     color: $accent-color;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 16px 59px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 16px 31px;
   }
 }
 

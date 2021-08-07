@@ -5,6 +5,7 @@
 
 .checkbox__label {
   position: relative;
+  padding-left: 18px;
 }
 
 .checkbox__input {
@@ -39,7 +40,6 @@
 }
 
 .checkbox__text {
-  padding-left: 18px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
