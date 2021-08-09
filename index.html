@@ -141,37 +141,55 @@
           <ul class="activities">
             <li class="activities__item">
               <div class="activities__thumb">
-                <img
-                  src="./images/work-1.jpg"
-                  srcset="./images/work-1.jpg 1x, ./images/work-1-@2x.jpg 2x"
-                  alt="Работа над десктопным приложением"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="./images/work-1.webp 1x, ./images/work-1-@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./images/work-1.jpg 1x, ./images/work-1-@2x.jpg 2x"
+                    src="./images/work-1.jpg"
+                    alt="Работа над десктопным приложением"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
                 <h3 class="activities__description">Десктопные приложения</h3>
               </div>
             </li>
             <li class="activities__item">
               <div class="activities__thumb">
-                <img
-                  src="./images/work-2.jpg"
-                  srcset="./images/work-2.jpg 1x, ./images/work-2-@2x.jpg 2x"
-                  alt="создание вариантов оформления мобильного приложения"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="./images/work-2.webp 1x, ./images/work-2-@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./images/work-2.jpg 1x, ./images/work-2-@2x.jpg 2x"
+                    src="./images/work-2.jpg"
+                    alt="создание вариантов оформления мобильного приложения"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
                 <h3 class="activities__description">Мобильные приложения</h3>
               </div>
             </li>
             <li class="activities__item">
               <div class="activities__thumb">
-                <img
-                  src="./images/work-3.jpg"
-                  srcset="./images/work-3.jpg 1x, ./images/work-3-@2x.jpg 2x"
-                  alt="подбор цветовой гаммы"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="./images/work-3.webp 1x, ./images/work-3-@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="./images/work-3.jpg 1x, ./images/work-3-@2x.jpg 2x"
+                    src="./images/work-3.jpg"
+                    alt="подбор цветовой гаммы"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
                 <h3 class="activities__description">Дизайнерские решения</h3>
               </div>
             </li>
@@ -186,12 +204,40 @@
           <h2 class="section__heading">Наша команда</h2>
           <ul class="personal">
             <li class="personal__item">
-              <img
-                src="./images/photo-1.jpg"
-                srcset="./images/photo-1.jpg 1x, ./images/photo-1-@2x.jpg 2x"
-                alt="фотография Игоря Демьяненко"
-                width="450"
-              />
+              <picture>
+                <source
+                  srcset="./images/photo-1-mobile.webp 1x, ./images/photo-1-mobile-@2x.webp 2x"
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-1-tablet.webp 1x, ./images/photo-1-tablet-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-1-desktop.webp 1x, ./images/photo-1-desktop-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/photo-1-mobile.jpg 1x, ./images/photo-1-mobile-@2x.jpg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-1-tablet.jpg 1x, ./images/photo-1-tablet-@2x.jpg"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-1-desktop.jpg 1x, ./images/photo-1-desktop-@2x.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/photo-1-mobile.jpg"
+                  alt="фотография Игоря Демьяненко"
+                  width="450"
+                />
+              </picture>
               <div class="personal__label">
                 <h3 class="personal__name">Игорь Демьяненко</h3>
                 <p class="personal__position">Product Designer</p>
@@ -228,12 +274,36 @@
               </div>
             </li>
             <li class="personal__item">
-              <img
-                src="./images/photo-2.jpg"
-                srcset="./images/photo-2.jpg 1x, ./images/photo-2-@2x.jpg 2x"
-                alt="фотография Ольги Репиной"
-                width="450"
-              />
+              <picture>
+                <source
+                  srcset="./images/photo-2-mobile.webp 1x, ./images/photo-2-mobile-@2x.webp 2x"
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-2-tablet.webp 1x, ./images/photo-2-tablet-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-2-desktop.webp 1x, ./images/photo-2-desktop-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/photo-2-mobile.jpg 1x, ./images/photo-2-mobile-@2x.jpg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-2-tablet.jpg 1x, ./images/photo-2-tablet-@2x.jpg"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-2-desktop.jpg 1x, ./images/photo-2-desktop-@2x.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <img src="./images/photo-2.jpg" alt="фотография Ольги Репиной" width="450" />
+              </picture>
               <div class="personal__label">
                 <h3 class="personal__name">Ольга Репина</h3>
                 <p class="personal__position">Frontend Developer</p>
@@ -270,12 +340,36 @@
               </div>
             </li>
             <li class="personal__item">
-              <img
-                src="./images/photo-3.jpg"
-                srcset="./images/photo-3.jpg 1x, ./images/photo-3-@2x.jpg 2x"
-                alt="фотография Николая Тарасова"
-                width="450"
-              />
+              <picture>
+                <source
+                  srcset="./images/photo-3-mobile.webp 1x, ./images/photo-3-mobile-@2x.webp 2x"
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-3-tablet.webp 1x, ./images/photo-3-tablet-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-3-desktop.webp 1x, ./images/photo-3-desktop-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/photo-3-mobile.jpg 1x, ./images/photo-3-mobile-@2x.jpg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-3-tablet.jpg 1x, ./images/photo-3-tablet-@2x.jpg"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-3-desktop.jpg 1x, ./images/photo-3-desktop-@2x.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <img src="./images/photo-3.jpg" alt="фотография Николая Тарасова" width="450" />
+              </picture>
               <div class="personal__label">
                 <h3 class="personal__name">Николай Тарасов</h3>
                 <p class="personal__position">Marketing</p>
@@ -312,12 +406,36 @@
               </div>
             </li>
             <li class="personal__item">
-              <img
-                src="./images/photo-4.jpg"
-                srcset="./images/photo-4.jpg 1x, ./images/photo-4-@2x.jpg 2x"
-                alt="фотография Михаила Ермакова"
-                width="450"
-              />
+              <picture>
+                <source
+                  srcset="./images/photo-4-mobile.webp 1x, ./images/photo-4-mobile-@2x.webp 2x"
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-4-tablet.webp 1x, ./images/photo-4-tablet-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-4-desktop.webp 1x, ./images/photo-4-desktop-@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/photo-4-mobile.jpg 1x, ./images/photo-4-mobile-@2x.jpg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/photo-4-tablet.jpg 1x, ./images/photo-4-tablet-@2x.jpg"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                />
+                <source
+                  srcset="./images/photo-4-desktop.jpg 1x, ./images/photo-4-desktop-@2x.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <img src="./images/photo-4.jpg" alt="фотография Михаила Ермакова" width="450" />
+              </picture>
               <div class="personal__label">
                 <h3 class="personal__name">Михаил Ермаков</h3>
                 <p class="personal__position">UI Designer</p>
