@@ -1403,8 +1403,18 @@ body.modal-open {
 }
 
 .checkbox__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
-  padding-left: 18px;
+}
+
+.checkbox__container {
+  width: 16px;
+  height: 15px;
 }
 
 .checkbox__input {
@@ -1445,6 +1455,7 @@ body.modal-open {
 }
 
 .checkbox__text {
+  margin-left: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
